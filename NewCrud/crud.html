@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="crud.css">
+</head>
+<body>
+     <form method="post" id="userForm">
+        <input type="search" id="search" name="search" placeholder="search" oninput="getData(this.value)">
+        <button id="add">+ Add</button>
+    </form>
+
+<table>
+  <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>edit</th>
+    <th>delete</th>
+  </tr>
+  <tbody id="data"></tbody>
+</table>
+
+<script src="crud.js"></script>
+
+
+
+
+</body>
+</html>

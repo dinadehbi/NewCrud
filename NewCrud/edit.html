@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edite Html</title>
+    <link rel="stylesheet" href="crud.css">
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #form{
+            height: 220px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+        }
+        input{
+        height: 30px;
+        width: 80%;
+        border-radius: 5px;
+        padding-left: 10px;
+        }
+        button{
+        background-color: #99ebff;
+        height: 30px;
+        width: 50px;
+        border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form method="post" id="form">
+        <h1>Edite Your Data</h1><br>
+        <input type="text" name="Fullname"  placeholder="fullname" id="input"><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
